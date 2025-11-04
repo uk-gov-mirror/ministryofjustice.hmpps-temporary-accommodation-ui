@@ -134,6 +134,7 @@ export default {
     },
     assessments: {
       index: assessmentsCas3Path,
+      update: assessmentsCas3Path.path('/:id'),
       notes: assessmentsCas3Path.path(':id/referral-history-notes'),
     },
   },
@@ -163,7 +164,6 @@ export default {
   assessments: {
     index: assessPaths.assessments,
     show: assessPaths.singleAssessment,
-    update: assessPaths.singleAssessment,
     allocation: assessPaths.allocation,
     rejection: assessPaths.rejection,
     acceptance: assessPaths.acceptance,
