@@ -126,6 +126,7 @@ const cas3Api = {
     index: assessmentsCas3Path,
     notes: singleAssessmentCas3Path.path('referral-history-notes'),
   },
+  referenceData: cas3Path.path('reference-data'),
 }
 
 export default {
