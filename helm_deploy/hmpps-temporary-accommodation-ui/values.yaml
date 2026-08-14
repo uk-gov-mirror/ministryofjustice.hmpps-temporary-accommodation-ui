@@ -63,7 +63,7 @@ generic-service:
 
   allowlist:
     groups:
-      - internal
+      - digital_staff_and_mojo
       - prisons
     palo-alto-prisma-access-corporate: "128.77.75.64/26"
 
